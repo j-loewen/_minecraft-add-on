@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "pack.description",
+        "name": "pack.name",
+        "uuid": "[ADDON-BEHAVIOR-UUID]",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 101]
+    },
+    "dependencies": [
+        {
+            "uuid": "[ADDON-RESOURCE-UUID]",
+            "version": "1.0.0"
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.2.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        }
+    ],
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "[ADDON-RANDOM-UUID]",
+            "entry": "scripts/main.js",
+            "version": "1.0.0"
+        }
+    ]
+}
