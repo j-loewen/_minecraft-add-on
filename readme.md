@@ -42,17 +42,8 @@ npm install -g typescript
 2. **Install Minecraft Script API packages**
 
 ```powershell
-npm i @minecraft/server
-npm i @minecraft/server-ui
-npm i @minecraft/vanilla-data
-npm i @minecraft/math
+npm install
 ```
-
-3. **Initialize your project**
-
-- Create a new folder for your add-on
-- Navigate to the folder in your terminal
-- Run `npm init -y` to create a package.json file
 
 You're now ready to start developing your Minecraft Bedrock add-on!
 

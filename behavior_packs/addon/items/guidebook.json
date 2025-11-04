@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "byteforgelabs:survival_essentials_guidebook",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "item.byteforgelabs:survival_essentials_guidebook.name"
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:icon": "byteforgelabs:survival_essentials_guidebook",
+            "minecraft:should_despawn": true,
+            "minecraft:rarity": "uncommon"
+        }
+    }
+}

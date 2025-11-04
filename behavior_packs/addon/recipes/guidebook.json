@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "byteforgelabs:survival_essentials_guidebook_recipe"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [{ "item": "minecraft:book" }, { "item": "minecraft:stone" }],
+        "result": {
+            "item": "byteforgelabs:survival_essentials_guidebook",
+            "count": 1
+        },
+        "unlock": [
+            {
+                "item": "minecraft:book"
+            }
+        ]
+    }
+}
